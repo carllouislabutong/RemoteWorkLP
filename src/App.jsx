@@ -29,8 +29,8 @@ function App() {
         <link rel="icon" href={logoTab} />
       </Helmet>
       <nav className=" px-10 py-6 max-[375px]:px-0 max-[375px]:py-0 uppernav ">
-        <div className=" flex items-start max-[375px]:flex-col gap-32 ">
-          <div className=" max-[375px]:flex max-[375px]:gap-[16rem] max-[375px]:py-2">
+        <div className=" flex items-start max-[375px]:flex-col gap-16 ">
+          <div className=" max-[375px]:flex max-[375px]:gap-[14rem] max-[375px]:py-2">
             <img src={logo} alt="logo" />
             <div id="label2" onClick={handleClick}>
               <svg
