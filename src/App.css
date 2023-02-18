@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+::root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+  --font-family: 'Epilogue', sans-serif;
+}
+
+.app {
+  background: var(--Almost-White);
+  font-family: var(--font-family);
+}
+
+@media only screen and (max-width: 375px) {
+  .uppernav {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-open {
+    display: block !important;
+  }
+
+  #navbar {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    padding: 10px;
+    background: white;
+  }
+
+  #label2 {
+    visibility: visible !important;
+  }
+
+  #buttonX {
+    visibility: visible !important;
+
+  }
+
+  .feature-panel {
+    z-index: 3;
+  }
+
+
+}
+
+label {
+  visibility: hidden;
+}
+
+#label2 {
+  visibility: hidden;
+}
+
+#buttonX {
+  visibility: hidden;
+}
